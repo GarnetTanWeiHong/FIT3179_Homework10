@@ -6,7 +6,7 @@
   "background": "lightblue",
   "projection": {"type": "equirectangular"},
   "data": {
-    "url": "https://raw.githubusercontent.com/GarnetTanWeiHong/FIT3179_Data_Viz_2/main/js/ne_110m_admin_0_countries.topojson",
+    "url": "https://raw.githubusercontent.com/GarnetTanWeiHong/FIT3179_Homework10/main/js/ne_110m_admin_0_countries.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "transform": [
@@ -14,7 +14,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/GarnetTanWeiHong/FIT3179_Data_Viz_2/main/data/Final.csv"
+          "url": "https://raw.githubusercontent.com/GarnetTanWeiHong/FIT3179_Homework10/main/data/Final.csv"
         },
         "key": "Entity",
         "fields": ["Internet Users(%)"]
