@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
-  "width": 400, 
-  "height": 300, 
+  "width": "container", 
+  "height": 400, 
   "data": {
     "url": "https://raw.githubusercontent.com/GarnetTanWeiHong/FIT3179_Homework10/main/data/Final.csv",
     "format": {
