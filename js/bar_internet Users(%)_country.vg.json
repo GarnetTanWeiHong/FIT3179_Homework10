@@ -4,7 +4,7 @@
   "width": 400, 
   "height": 300, 
   "data": {
-    "url": "https://raw.githubusercontent.com/GarnetTanWeiHong/FIT3179_Data_Viz_2/main/data/Final.csv",
+    "url": "https://raw.githubusercontent.com/GarnetTanWeiHong/FIT3179_Homework10/main/data/Final.csv",
     "format": {
       "type": "csv",
       "parse": {
