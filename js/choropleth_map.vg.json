@@ -11,10 +11,18 @@
   },
   "transform": [
     {
-      "lookup": "properties.NAME",
+      "lookup": "properties.NAME_LONG",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/GarnetTanWeiHong/FIT3179_Homework10/main/data/Final.csv"
+          "url": "https://raw.githubusercontent.com/GarnetTanWeiHong/FIT3179_Homework10/main/data/Final.csv",
+          "format": {
+            "type": "csv",
+            "parse": {
+              "Year": "number",
+              "Internet Users(%)": "number",
+              "Broadband Subscription": "number"
+            }
+          }
         },
         "key": "Entity",
         "fields": ["Internet Users(%)"]
@@ -36,11 +44,12 @@
           "title": "Percentage"
         },
         "tooltip": [
-          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+          {"field": "properties.NAME_LONG", "type": "nominal", "title": "Country"},
           {
             "field": "Count",
             "type": "quantitative",
-            "title": "Percentage of Users"
+            "title": "Percentage of Users",
+            "format":".4f"
           }
         ]
       }
